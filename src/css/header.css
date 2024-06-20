@@ -43,6 +43,6 @@ header {
     font-weight: 600;
 }
 
-.navitem a:hover {
-    color: #ffe100;
+.navitem a {
+    color: #e9a209;
 }
