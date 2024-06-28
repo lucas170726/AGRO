@@ -46,3 +46,9 @@ header {
 .navitem a {
     color: #e9a209;
 }
+
+.navitem.ativo{
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+
