@@ -52,3 +52,32 @@ header {
     border-bottom: 3px solid #ffe100;
 }
 
+.btn_celular {
+    display: none;
+
+}
+
+.navecelular {
+    display: none;
+
+}
+
+@media (max-width: 768px){
+
+.navlista, .navbar .btn-celular{
+    display: none;
+    
+}
+
+    .btn-celular{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        color: #e9a209;
+        cursor: pointer;
+    }
+    
+    
+    
+}
