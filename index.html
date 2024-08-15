@@ -1,65 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/header.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/home.css">
+    <title>Maravilha</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="navbar">
-    <header>
-        <nav class="navbar">
-            <i class="fa-solid fa-motorcycle" > capacete ls</i>
-            <ul class="nav_lista">
-                <li class="navitem ativo"><a href="#home">inicio</a></li>
-                <li class="navitem"><a href="#produtos">produtos</a></li>
-                <li class="navitem"><a href="#avaliacoes">avaliações</a></li>
+            <i class="fa-solid fa-motorcycle" id="navlogo"> capacete ls</i>
+            <ul class="navlista">
+                <li class="navitem ativo"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#produtos">Produtos</a></li>
+                <li class="navitem"><a href="#avaliacoes">Avaliações</a></li>
+                <li class="navitem"><a href="#contatos">Contatos</a></li>
+                <li class="navitem"><a href="#reclamacoes">Reclamações</a></li>
+                <li class="navitem"><a href="#sobre nos">Sobre nós</a></li>
             </ul>
-            <button class="btn pedido">faça seu pedido aqui</button>
+            <button class="btn-pedido">Peça Aqui</button>
             <button class="btn-celular">
             <i class="fa-solid fa-bars"></i>
-        </button>
+        </button>               
         </nav>
-<div class="navecelular">
-    <ul class="celularnaelista">
-        <li class="navitem"><a href="#home">inicio</a></li>
-        <li class="navitem"><a href="#produtos">produtos</a></li>
-        <li class="navitem"><a href="#avaliacoes">avaliações</a></li>
-    </ul>
-    <button class="btn pedido">faça seu pedido aqui</button>
-</div>
-        
+        <div class="navcelular">
+            <ul class="celularnavlista">
+                <li class="navitem"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#produtos">Produtos</a></li>
+                <li class="navitem"><a href="#avaliacoes">Avaliações</a></li>
+                <li class="navitem"><a href="#contatos">Contatos</a></li>
+                <li class="navitem"><a href="#reclamacoes">Reclamações</a></li>
+                <li class="navitem"><a href="#sobre nos">Sobre nós</a></li>
+            </ul>
+            <button class="btn-pedido">Peça Aqui</button>
+        </div>
+
     </header>
 
-    <main id="conteudo">
-        <section id="home">
-            <div class="inicial">
-                <h1 class="titulo"> o campo indo até <span id="vc">você</span></h1>
-                <p class="descricao">Direto da região de Maravilha para sua casa: qualidade, frescor e compromisso com a
-                    nossa comunidade. Agora você pode pedir os melhores produtos da nossa região com apenas alguns
-                    cliques, falando diretamente com nossos produtores.</p>
 
-                <div class="botao-inicio">
-                    <a href="#caixa_produtos"><button class="btn-pedido">Peça aqui</button></a>
+<main id="conteudo">
 
-                </div>
+<section id="home">
+    <div class="inicial">
+        <h1 class="titulo">O campo até <span id="vc">você</span>
+        </h1>
+        <p class="descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, voluptates sunt voluptatem enim error inventore aperiam dignissimos quae eligendi. Quae unde deserunt eveniet amet placeat, sed esse. Quis, explicabo id.</p>
 
-                <div class="social_btn">
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">
-                        <i class="fa-brands fa-instagram"></i></a>
-                </div>
+        <div class="botao-inicio">
+            <a href="#produtos" class="btn-pedido">Ver produtos</a>
+        </div>
+        <div class="social_btn"><i 
+            class="fa-brands fa-facebook"></i></div>
+        </div>
+        <div class="social_btn"><i 
+            class="fa-brands fa-instagram"></i></div>
 
 
+    </div>
+</section>
 
-            </div>
-            </section>
-            </main>
-            <script src="src/js/main.js"></script>
+
+
+</main>
+
+
+
+
+
+
+    <script src="src/js/main.js"></script>
 </body>
 </html>
+
