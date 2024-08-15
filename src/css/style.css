@@ -1,5 +1,5 @@
 body {
-    background-color: #fff9ea;
+    background-color: #0d2ce0ce;
 }
 
 section {
@@ -12,7 +12,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: #e6e2d844;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -21,5 +21,5 @@ section {
 }
 
 .btn-pedido:hover {
-    background-color: #ffe100;
+    background-color: #07abd4;
 }
