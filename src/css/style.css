@@ -1,3 +1,14 @@
+:root{
+    --cor-primaria-1: #00A6FB;
+    --cor-primaria-2: #0582CA;
+    --cor-primaria-3: #006494;
+    --cor-primaria-3: #003554;
+    --cor-primaria-4: #051923;
+    --cor-primaria-5: #33415C;
+     
+    --cor-primaria-1: #7D8597;
+    --cor-primaria-1: #979DAC;
+}
 body {
     background-color: #26b1f1ce;
 }
@@ -23,3 +34,5 @@ section {
 .btn-pedido:hover {
     background-color: #07abd4;
 }
+
+
